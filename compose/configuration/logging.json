@@ -1,0 +1,29 @@
+{
+	"version": 1,
+	"disable_existing_loggers": false,
+	"formatters": {
+		"simple": {
+			"format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+		},
+		"detailed": {
+			"format": "[%(filename)s:%(lineno)s - %(funcName)5s()] %(asctime)s - %(name)s - %(levelname)s - %(message)s"
+		}
+	},
+	"handlers": {
+		"console": {
+			"class": "logging.StreamHandler",
+			"level": "DEBUG",
+			"formatter": "detailed",
+			"stream": "ext://sys.stdout"
+		}
+	},
+	"loggers": {
+		"compose": {
+			"level": "DEBUG"
+		}
+	},
+	"root": {
+		"level": "DEBUG",
+		"handlers": ["console"]
+	}
+}

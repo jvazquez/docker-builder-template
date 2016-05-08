@@ -1,0 +1,6 @@
+[generator]
+app_root=
+docker_compose_file=docker-compose.yml.dist
+template_dir=
+template_file=docker-compose.yml.dist
+output_template=docker-compose.yml

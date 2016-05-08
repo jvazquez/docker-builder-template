@@ -1,0 +1,5 @@
+Jinja2==2.8
+logconfig==0.4.0
+logutils==0.3.3
+MarkupSafe==0.23
+PyYAML==3.11

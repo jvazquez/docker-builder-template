@@ -1,0 +1,7 @@
+# Place your docker templates here. It's a jinja2 template
+elasticsearch:
+  image: elasticsearch:2.1.0
+  volumes:
+    - /home/jvazquez/workspace/bookmarks.io/data:/usr/shar/eelasticsearch/data
+  command: "-Xmx10g -Xms2g -Djna.tmpdir=/app/logs/elastic-log"
+    
