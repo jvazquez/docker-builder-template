@@ -3,3 +3,4 @@
 .pydevproject
 .project
 __pycache__
+/docker-compose.yml
